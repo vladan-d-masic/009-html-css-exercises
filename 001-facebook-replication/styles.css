@@ -1,0 +1,136 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  background-color: #f2f4f7;
+}
+
+.description,
+.log-in-div {
+  width: 350px;
+}
+
+.log-in-card {
+  border-radius: 7px;
+  box-shadow: 0 5px 5px 0 gainsboro, 0 5px 5px 0 gainsboro;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+}
+
+.title {
+  color: #0866ff;
+  font-size: 45px;
+}
+
+.log-in-btn {
+  background-color: #0866ff;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.create-account-btn {
+  background-color: #42b72a;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email,
+.password,
+.log-in-btn,
+.create-account-btn {
+  display: block;
+  border-radius: 7px;
+  height: 45px;
+}
+
+.email,
+.password {
+  border: gainsboro solid 1px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #0866ff;
+  text-align: center;
+}
+
+.page-creation {
+  color: black;
+  font-weight: bold;
+}
+
+.celebrity-brand-business {
+  font-size: 14px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+hr {
+  background-color: gainsboro;
+  width: 100%;
+}
+
+.main-footer {
+  height: 150px;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.footer-div {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+.languages li,
+.footer-menu li {
+  display: inline;
+  font-size: 11px;
+  margin: 3px;
+}
+
+.languages a,
+.footer-menu a {
+  color: gray;
+}
+
+.languages,
+.footer-menu {
+  padding-left: 0;
+}
