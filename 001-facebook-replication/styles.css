@@ -73,6 +73,11 @@ body {
   font-size: 15px;
 }
 
+.email,
+.password:active {
+  border: black;
+}
+
 a {
   text-decoration: none;
 }
