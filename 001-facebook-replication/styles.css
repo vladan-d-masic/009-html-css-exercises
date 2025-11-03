@@ -73,9 +73,10 @@ body {
   font-size: 15px;
 }
 
-.email,
-.password:active {
-  border: black;
+.email:focus,
+.password:focus {
+  outline: none;
+  border: #0866ff solid 1px;
 }
 
 a {
