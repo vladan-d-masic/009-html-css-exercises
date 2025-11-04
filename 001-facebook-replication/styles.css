@@ -14,11 +14,21 @@ body {
   justify-content: center;
   height: 650px;
   background-color: #f2f4f7;
+  gap: 100px;
 }
 
-.description,
+.description {
+  width: 400px;
+  border: red solid;
+  padding: -100px 0 0 0;
+}
+
 .log-in-div {
   width: 350px;
+}
+
+.description p {
+  font-size: x-large;
 }
 
 .log-in-card {
