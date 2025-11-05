@@ -15,12 +15,7 @@ body {
   height: 650px;
   background-color: #f2f4f7;
   gap: 100px;
-}
-
-.description {
-  width: 400px;
-  border: red solid;
-  padding: -100px 0 0 0;
+  padding-bottom: 30px;
 }
 
 .log-in-div {
@@ -115,7 +110,8 @@ a:hover {
 }
 
 hr {
-  background-color: gainsboro;
+  border-bottom: gainsboro solid 0.1px;
+  border-top: none;
   width: 100%;
 }
 
@@ -128,17 +124,20 @@ hr {
 }
 
 .footer-div {
-  max-width: 900px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .languages li,
-.footer-menu li {
+.footer-menu li,
+.footer-div p {
   display: inline;
   font-size: 11px;
   margin: 3px;
+  color: gray;
 }
 
 .languages a,
@@ -149,4 +148,12 @@ hr {
 .languages,
 .footer-menu {
   padding-left: 0;
+}
+
+.languages {
+  margin-bottom: 0;
+}
+
+.footer-menu {
+  margin-top: 0;
 }
